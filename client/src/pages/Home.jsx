@@ -1,5 +1,6 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom'
+import Register from "../pages/Register"
 
 
 
@@ -8,9 +9,10 @@ function Home() {
   const data = location.state;
 
   return (
-  <div>
-  <h2 className='container'>Hello and Welcome !{data}</h2>
-  
+  <div className='container'>
+  { data ?(<h2 >Hello and Welcome! {data}</h2>)
+  :<Register/>
+  }
   </div>
     )
 }
