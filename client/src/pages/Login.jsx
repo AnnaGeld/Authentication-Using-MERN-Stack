@@ -28,7 +28,8 @@ try {
   }else{
   setData({})
   toast.success("Login successful. Welcome!")
- navigate("/")
+   navigate("/", { state: email })
+   
 
   }
 } catch (error) {
@@ -55,9 +56,7 @@ try {
 
   <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
 </form>
-
     </div>
-    
   )
 }
 
