@@ -6,14 +6,6 @@ const cookieParser = require("cookie-parser");
 
 const app = express();
 
-app.use(
-  cors({
-    credentials: true,
-    origin: "authentication-using-mern-front.vercel.app",
-    methods: ["POST", "GET"],
-  })
-);
-
 //database connection
 
 mongoose
