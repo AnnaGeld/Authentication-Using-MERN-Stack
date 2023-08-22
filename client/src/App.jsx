@@ -9,7 +9,7 @@ import {Toaster} from "react-hot-toast"
 
 
 
-axios.defaults.baseURL = "ttps://cool-pony-83b325.netlify.app"
+axios.defaults.baseURL = "authentication-using-mern-api.vercel.app"
 axios.defaults.withCredentials = true
 
 function App() {

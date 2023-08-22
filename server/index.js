@@ -9,18 +9,11 @@ const app = express();
 app.use(
   cors({
     credentials: true,
-    origin: "https://authserverrr.onrender.com",
+    origin: "authentication-using-mern-front.vercel.app",
     methods: ["POST", "GET"],
   })
 );
 
-app.use(
-  cors({
-    credentials: true,
-    origin: "https://authserverrr.onrender.com",
-    methods: ["POST", "GET"],
-  })
-);
 //database connection
 
 mongoose
