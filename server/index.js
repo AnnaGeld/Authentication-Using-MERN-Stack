@@ -13,6 +13,14 @@ app.use(
     methods: ["POST", "GET"],
   })
 );
+
+app.use(
+  cors({
+    credentials: true,
+    origin: "https://authserverrr.onrender.com",
+    methods: ["POST", "GET"],
+  })
+);
 //database connection
 
 mongoose
