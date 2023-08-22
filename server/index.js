@@ -6,6 +6,13 @@ const cookieParser = require("cookie-parser");
 
 const app = express();
 
+app.use(
+  cors({
+    credentials: true,
+    origin: "https://authserverrr.onrender.com",
+    methods: ["POST", "GET"],
+  })
+);
 //database connection
 
 mongoose
