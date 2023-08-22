@@ -11,7 +11,7 @@ const {
 router.use(
   cors({
     credentials: true,
-    origin: "https://authserverrr.onrender.com",
+    origin: "authentication-using-mern-front.vercel.app",
     methods: ["POST", "GET"],
   })
 );
