@@ -12,7 +12,6 @@ router.use(
   cors({
     credentials: true,
     origin: "authentication-using-mern-front.vercel.app",
-    methods: ["POST", "GET"],
   })
 );
 
