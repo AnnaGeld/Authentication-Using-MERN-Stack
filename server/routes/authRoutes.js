@@ -8,14 +8,14 @@ const {
   /*getProfile,*/
 } = require("../controllers/controller");
 
-router.use(
+/* router.use(
   cors({
     credentials: true,
     origin: "https://authserverrr.onrender.com",
     methods:["POST","GET"]
    
   })
-);
+); */
 
 router.get("/", test);
 
