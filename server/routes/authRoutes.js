@@ -12,6 +12,7 @@ router.use(
   cors({
     credentials: true,
     origin: "https://authserverrr.onrender.com",
+    methods:["POST","GET"]
    
   })
 );
