@@ -9,8 +9,8 @@ function Home() {
   const data = location.state;
 
   return (
-  <div className='container'>
-  { data ?(<h2 >Hello and Welcome! {data}</h2>)
+  <div >
+  { data ?(<h2 className='container' >Hello and Welcome! {data}</h2>)
   :<Register/>
   }
   </div>

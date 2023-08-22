@@ -9,7 +9,7 @@ import {Toaster} from "react-hot-toast"
 
 
 
-axios.defaults.baseURL = "http://localhost:8000"
+axios.defaults.baseURL = "https://authserverrr.onrender.com"
 axios.defaults.withCredentials = true
 
 function App() {
