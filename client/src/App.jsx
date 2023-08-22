@@ -9,7 +9,7 @@ import {Toaster} from "react-hot-toast"
 
 
 
-axios.defaults.baseURL = "https://authserverrr.onrender.com"
+axios.defaults.baseURL = "ttps://cool-pony-83b325.netlify.app"
 axios.defaults.withCredentials = true
 
 function App() {
